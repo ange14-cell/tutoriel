@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(11, 11, 124);
+}
+.header{ 
+        
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+}
+.nav-link a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    color: azure;
+    font-weight: bolder;
+    margin-left: 50px ;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 6px;
+}
+.nav-link ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav-link li{
+    margin-right: 50px ;
+    margin-top: 20px;
+
+}
+.section{
+    
+    text-align: center;
+    margin: 200px;
+    color: white;
+}
+h2{
+    font-size: large;
+    letter-spacing: 2px;
+    font-weight: 10px;
+    font-size: 30px;
+    
+    
+}
+.bouton{
+    text-align: center;
+      
+    
+}
+.firt{
+    height: 25px;
+    width: 150px;
+    color: #000;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid black;
+   border-radius: 10% /50%;
+
+}
+.second{
+    height: 25px;
+    width: 170px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10% /50%;
+} 
+.firt:hover{
+    background-color: blue;
+    color: aquamarine;
+}
+.second:hover{
+    background-color: blue;
+    color: aquamarine;
+}
+
+@media screen and(max-width: 764px){
+    .header{
+        display: inline-block;
+        width: 100%;
+    }
+}
+
