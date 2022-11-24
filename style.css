@@ -80,10 +80,3 @@ h2{
     color: aquamarine;
 }
 
-@media screen and(max-width: 764px){
-    .header{
-        display: inline-block;
-        width: 100%;
-    }
-}
-
